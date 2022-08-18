@@ -1,0 +1,56 @@
+footer{
+    background-color: #1c1d1f;
+    padding: 24px 48px 0 24px;
+}
+/* contain all elements in footer section except the logo */
+.footer_container {
+  background-color: #1c1d1f;
+  display: flex;
+  justify-content: space-between;
+}
+/* styling the links list to adapt with the parent element */
+.footer_container ul{
+  background-color: #1c1d1f;
+  display: block;
+  margin: 0px 30px 0 0;
+}
+.footer_container ul li {
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  background-color: #1c1d1f;
+  color: white;
+}
+.footer_container ul li a{
+    color: white;
+}
+footer img{
+    background-color: #1c1d1f;
+    width: 92px;
+    height: 34px;
+}
+.lang_bottom{
+    display: flex;
+    flex: 0.75;
+    justify-content: flex-end;
+}
+.lang_bottom button{
+     width: 80px;
+  height: 40px;
+  background-color: inherit;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+
+}
+.bottom_logo_container{
+    padding: 64px 0 32px 0 ;
+    background-color: inherit;
+}
+.footer_container ul li a:hover{
+    text-decoration: underline;
+}

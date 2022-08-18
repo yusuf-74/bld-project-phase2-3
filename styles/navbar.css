@@ -1,0 +1,112 @@
+.nav_holder{
+     position:relative;
+    z-index:999;
+  box-shadow:  0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+/* set logo size */
+.udemy_logo {
+  width: 91px;
+  height: 34px;
+  margin: 0;
+}
+/* making the big screen nav bar */
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+/* the list item that holds input and button */
+.search_list {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+/* styling categories button */
+.nav_bar_btn {
+  width: 90px;
+  height: 48px;
+}
+/* the div that holding both input and button */
+.search_element {
+  display: flex;
+  flex: 1;
+  padding: 0 24px 0 0;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+/* search icon beside input feild */
+.search_btn {
+  width: 48px;
+  height: 48px;
+  background-color: inherit;
+  border: none;
+}
+/* the input feild */
+.search_bar {
+  display: flex;
+  flex: 1;
+  outline: none;
+  border: none;
+  padding: 0 0 0 4px;
+}
+/* any button in alist item */
+.nav_bar li button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+/* give scales to almost all elements in the nav bar */
+.marging,
+.nav_anchors {
+  margin: 12px 0;
+  padding: 0 12px;
+  white-space: nowrap;
+}
+/*    ==    */
+.nav_bar li a{
+color: black;
+}
+/* styling the log in feild */
+.log_in {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-left: 5px;
+}
+/* give it a hover effect */
+.log_in:hover ,.lang_btn:hover{
+background-color: rgb(230, 230, 230);
+}
+/* styling sign up feild  */
+.sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+/* styling the languge button */
+.lang_btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+/* giving a hover effect to almost all elements in nav bar */
+.hover_blue a:hover , .hover_blue:hover{
+color: blueviolet;
+transition: 250ms;
+}

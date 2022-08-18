@@ -1,0 +1,31 @@
+/* making a space between sections */
+.categories{
+    padding: 0 24px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+/* styling the title of section */
+.categories h2{
+    margin: 0 0 24px 0;
+}
+/* creating a flixible grid to hold the categories cards */
+.categories_container{
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  overflow: hidden;
+}
+
+.category_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 10px;
+
+}
+/* some smooth hover effect similar to udemy */
+.category_logo a img:hover {
+  width: 95%;
+  padding: 2.5%;
+  transition-duration: 250ms;
+}

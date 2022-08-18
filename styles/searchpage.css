@@ -1,0 +1,56 @@
+/*the card showing up while search*/
+.course_card_for_search{
+    display: flex;
+    margin: 16px;
+ }
+ /* the middle part of the card that holds the main informations*/
+ .card_info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    flex: 1; /* for better user experience*/
+    padding: 8px;
+    margin-right: 8px;
+ }
+/* the search container is equvilant to main content div in home page */
+ .search_container{
+    padding: 48px 24px;
+ }
+ /* contains the back button and results number */
+ .results_header{
+    margin: 0 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ /* for better user experience */
+ .search_author{
+   flex: 1;
+ }
+ /* styling back button */
+ .back_btn{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ /*  */
+ .search_reuslt_img{
+    max-width: 240px;
+ }
+ /* the a element was preventing the info container from flexing */
+ .card_anchor{
+   width: 100%;
+ }
+ /*  */
+ .course_description_search{
+   max-width: 80%;
+ }
+ .sale{
+   color:grey ;
+   text-decoration: line-through;
+ }

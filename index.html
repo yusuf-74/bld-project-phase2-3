@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/root.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/courses.css" />
+    <link rel="stylesheet" href="./styles/topCategories.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/popular.css" />
+    <link rel="stylesheet" href="./styles/media_query.css" />
+    <link rel="stylesheet" href="./styles/searchpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4f4ab77b58.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="icon" href="/favicon-16x16.png" /> -->
+    <title>Udemy</title>
+  </head>
+
+  <body>
+    <!-- start of nav bar  -->
+    <div class="nav_holder">
+      <nav class="main_nav_bar">
+        <!-- navbar content -->
+
+        <div class="icon small">
+          <button class="list_icon"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="udemy_logo small">
+          <img
+            class="small_logo"
+            src="./design_elements/general_items/logo-udemy.jpg"
+            alt="Udemy"
+          />
+        </div>
+
+        <div class="icon small">
+          <button id="search_small"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="icon small">
+          <button class="cart_icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        
+        <ul class="nav_bar">
+          <!-- the logo for big screens -->
+          <li class="logo">
+            <a href=""
+              ><img
+                class="udemy_logo"
+                src="./design_elements/general_items/logo-udemy.jpg"
+                alt="Udemy logo"
+            /></a>
+          </li>
+          <!-- Categories -->
+          <li>
+            <button class="nav_bar_btn marging hover_blue">Categories</button>
+          </li>
+          <!-- search bar -->
+          <li class="search_list">
+            <!-- parent container that contains button and input -->
+            <div class="search_element">
+              <button id="search_btn" class="search_btn hover_blue">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                id="my_search_bar"
+                class="search_bar"
+                type="search"
+                placeholder="Search for any thing"
+              />
+            </div>
+          </li>
+          <!-- Udemy business -->
+          <li class="hover_blue media_1080">
+            <a href="">
+              <div class="nav_anchors media_1080">
+                <span>Udemy Business</span>
+              </div>
+            </a>
+          </li>
+          <!-- Teach on udemy link  -->
+          <li class="hover_blue media_915">
+            <a href=""
+              ><div class="nav_anchors media_915">
+                <span>Teach on Udemy</span>
+              </div>
+            </a>
+          </li>
+          <!-- cart icon -->
+          <li class="hover_blue">
+            <a href="">
+              <div class="nav_anchors">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </a>
+          </li>
+          <!-- log in  -->
+          <li>
+            <a href="">
+              <div class="log_in">
+                <span>Log in</span>
+              </div>
+            </a>
+          </li>
+          <!-- sign up -->
+          <li>
+            <a href="">
+              <div class="sign_up">
+                <span>Sign up</span>
+              </div>
+            </a>
+          </li>
+          <!-- language icon -->
+          <li>
+            <div class="lang_btn">
+              <button class="hover_blue">
+                <i class="fa-solid fa-globe"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- end of nav bar -->
+    <!-- ==================== -->
+    <!-- putting all elements in a container for better user expereince -->
+    <div class="main_content">
+      <!-- start of header -->
+      <header class="main_content_header">
+        <!-- the card that contain main motivaying photos -->
+        <div class="header_container">
+          <img
+            src="./design_elements/header_items/header_photo1.jpg"
+            alt="header photo 1"
+          />
+          <!-- motivating information about page -->
+        </div>
+        <div class="header_card">
+          <h1>Unlock the power of your peole</h1>
+          <p>
+            Udemy Business is trusted by 10.5K+ companies around the world.
+            <a href=""> Find out what we can do for yours</a>
+            .
+          </p>
+        </div>
+      </header>
+      <!-- end of header -->
+      <!-- ===========================  -->
+      <!-- start of course section -->
+      <section class="courses_section">
+        <!-- catchy words -->
+        <header class="courses_header">
+          <h1>A broad selection of courses</h1>
+          <p>
+            Choose from 204,000 online video courses with new additions
+            published every month
+          </p>
+        </header>
+        <!-- the main container is holding specialization and for every single one it should view its courses -->
+        <div class="courses_main_container">
+          <!-- specializations -->
+          <nav class="courses_nav">
+            <ul class="specialization_list">
+              <li><button class="click py">Python</button></li>
+              <li><button class="click excel">Excel</button></li>
+              <li><button class="click web">Web Development</button></li>
+              <li><button class="click java">JavaScript</button></li>
+              <li><button class="click data">Data Analysis</button></li>
+              <li><button class="click aws">AWS Certification</button></li>
+              <li><button class="click draw">Drawing</button></li>
+            </ul>
+          </nav>
+          <!-- start of secondary container -->
+          <div class="courses_secondary_container">
+            <article>
+              <!-- short note for specialization -->
+              <h2 class="head_line">
+                Expand your career opportunities with Python
+              </h2>
+              <p class="short_explination">
+                Take one of Udemy’s range of Python courses and learn how to
+                code using this incredibly useful language. Its simple syntax
+                and readability makes Python perfect for Flask, Django, data
+                science, and machine learning. You’ll learn how to build
+                everything from games to sites to apps. Choose from a range of
+                courses that will appeal to
+              </p>
+              <!-- sending user to specializayion page courses of the selected specialization -->
+              <a class="hover_black" href="/">
+                <div class="explore"><span>Explore</span></div>
+              </a>
+            </article>
+            <!-- the whole cards -->
+            <div class="courses_explorer">
+              <!-- cources cards -> main info like title , discription , author ...etc -->
+
+            </div>
+            <!-- end of cards container-->
+          </div>
+          <!-- end of secondary container -->
+        </div>
+        <!-- end of main container -->
+      </section>
+      <!-- end of courses section -->
+      <!-- ================================== -->
+      <!-- start of popular courses section -->
+      <!-- just like course section so it may waste your time -->
+      <!-- i appreciate your effort ;)-->
+      <section class="students_viewing_section">
+        <div class="popular_container">
+          <div class="title"><h2>Student are veiwing</h2></div>
+          <ul class="courses_list">
+            <li>
+              <!-- every card incloded in a container -->
+              <div class="card_container">
+                <div class="course_photo">
+                  <a href="/">
+                    <img
+                      src="./design_elements/courses_items/python_course_1.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="course_description">
+                  Learn Python: The Complete Python Programming Course
+                </div>
+                <div class="course_author">Avinash Jain,The Codex</div>
+                <div class="course_rate">
+                  <img
+                    class="course_rate_photo"
+                    src="./design_elements/rate/rate.jpg"
+                    alt="rate"
+                  />
+                </div>
+                <div class="course_price">E£679.99</div>
+              </div>
+            </li>
+            <!-- ==== -->
+            <li>
+              <div class="card_container">
+                <div class="course_photo">
+                  <a href="/">
+                    <img
+                      src="./design_elements/courses_items/python_course_2.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="course_description">
+                  Learn Python: The Complete Python Programming Course
+                </div>
+                <div class="course_author">Avinash Jain,The Codex</div>
+                <div class="course_rate">
+                  <img
+                    class="course_rate_photo"
+                    src="./design_elements/rate/rate.jpg"
+                    alt="rate"
+                  />
+                </div>
+                <div class="course_price">E£679.99</div>
+              </div>
+            </li>
+            <!-- ==== -->
+            <li>
+              <div class="card_container">
+                <div class="course_photo">
+                  <a href="/">
+                    <img
+                      src="./design_elements/courses_items/python_course_3.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="course_description">
+                  Learn Python: The Complete Python Programming Course
+                </div>
+                <div class="course_author">Avinash Jain,The Codex</div>
+                <div class="course_rate">
+                  <img
+                    class="course_rate_photo"
+                    src="./design_elements/rate/rate.jpg"
+                    alt="rate"
+                  />
+                </div>
+                <div class="course_price">E£679.99</div>
+              </div>
+            </li>
+            <!-- ==== -->
+            <li>
+              <div class="card_container">
+                <div class="course_photo">
+                  <a href="/">
+                    <img
+                      src="./design_elements/courses_items/python_course_4.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="course_description">
+                  Learn Python: The Complete Python Programming Course
+                </div>
+                <div class="course_author">Avinash Jain,The Codex</div>
+                <div class="course_rate">
+                  <img
+                    class="course_rate_photo"
+                    src="./design_elements/rate/rate.jpg"
+                    alt="rate"
+                  />
+                </div>
+                <div class="course_price">E£679.99</div>
+              </div>
+            </li>
+            <!-- ==== -->
+            <li>
+              <div class="card_container">
+                <div class="course_photo">
+                  <a href="/">
+                    <img
+                      src="./design_elements/courses_items/python_course_5;.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="course_description">
+                  Learn Python: The Complete Python Programming Course
+                </div>
+                <div class="course_author">Avinash Jain,The Codex</div>
+                <div class="course_rate">
+                  <img
+                    class="course_rate_photo"
+                    src="./design_elements/rate/rate.jpg"
+                    alt="rate"
+                  />
+                </div>
+                <div class="course_price">E£679.99</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end of popular courses section -->
+      <!-- =============================== -->
+      <!-- start of top categories section -->
+      <section class="categories">
+        <h2>Top categories</h2>
+        <!-- container to align with main page -->
+        <div class="categories_container">
+          <div class="category_logo">
+            <div>
+              <a href="https://www.udemy.com/courses/design/" target="_blank">
+                <img
+                  src="./design_elements/categories_items/design.jpg"
+                  alt="simple logo for design"
+                />
+
+                <h5>Design</h5>
+              </a>
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a
+                href="https://www.udemy.com/courses/development/"
+                target="_blank"
+              >
+                <img
+                  src="./design_elements/categories_items/development.jpg"
+                  alt="simple logo for Development"
+                />
+
+                <h5>Development</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a
+                href="https://www.udemy.com/courses/marketing/"
+                target="_blank"
+              >
+                <img
+                  src="./design_elements/categories_items/marketing.jpg"
+                  alt="simple logo for marketing"
+                />
+
+                <h5>Marketing</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a
+                href="https://www.udemy.com/courses/it-and-software/"
+                target="_blank"
+              >
+                <img
+                  src="./design_elements/categories_items/it_and_software.jpg"
+                  alt="simple logo for it and software"
+                />
+
+                <h5>IT and Software</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a
+                href="./design_elements/categories_items/personal.jpg"
+                target="_blank"
+              >
+                <img
+                  src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+                  alt="simple logo for personal development"
+                />
+
+                <h5>Personal Development</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a href="https://www.udemy.com/courses/business/" target="_blank">
+                <img
+                  src="./design_elements/categories_items/business.jpg"
+                  alt="simple logo for business"
+                />
+
+                <h5>Business</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a
+                href="https://www.udemy.com/courses/photography/"
+                target="_blank"
+              >
+                <img
+                  src="./design_elements/categories_items/photograpy.jpg"
+                  alt="simple logo for photography"
+                />
+
+                <h5>Photography</h5></a
+              >
+            </div>
+          </div>
+          <div class="category_logo">
+            <div>
+              <a href="https://www.udemy.com/courses/music/" target="_blank">
+                <img
+                  src="./design_elements/categories_items/music.jpg"
+                  alt="simple logo for music"
+                />
+
+                <h5>Music</h5></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of top categories section -->
+    </div>
+    <!-- end of main content holder -->
+    <!-- ===================================== -->
+    <!-- start of footer  -->
+    <footer>
+      <!-- contain the whole bottom section except the logo -->
+      <div class="footer_container">
+        <!-- links and language button -->
+        <ul class="footer_list">
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Udemy Business</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Teach on Udemy</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Get the app</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >about us</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Contact us</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >career</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Help and Support</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Affiliate</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Inventors</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Terms</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Privacy policy</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Cookie sittings</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Sitemap</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://business.udemy.com/?locale=en_US&mx_pg=home-page&ref=footer&user_type=visitor&utm_method=0"
+              target="_blank"
+              >Accessibility statment</a
+            >
+          </li>
+        </ul>
+        <div class="lang_bottom"><button>Language</button></div>
+      </div>
+      <!-- finally the end of the container -->
+      <!-- the logo is clickable this time :) -->
+      <div class="bottom_logo_container">
+        <a href="/"
+          ><img
+            src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"
+            alt="Udemy"
+        /></a>
+      </div>
+    </footer>
+    <!-- mission complete -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,21 @@
+/* that will centerlize the photo and no need for percentge margin  */
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 10px auto;
+}
+/* giving the photo maximum width */
+.header_container img{
+    width: 100%;
+    max-width: 1340px;
+}
+/* styling the header card */
+.header_card h1{
+padding: 12px 24px 0 24px;
+margin: 0 0 8px 0;
+}
+.header_card p{
+    padding: 0px 24px;
+}
+

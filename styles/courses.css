@@ -1,0 +1,174 @@
+/* giving margin and padding for the header of courses section for better user experience */
+.courses_header {
+  padding: 0 24px;
+  margin-top: 20px;
+}
+.courses_header h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.courses_header p {
+  font-weight: 400;
+  font-size: 19px;
+  margin: 8px 0 0 0;
+}
+/* giving margin and padding for the article of courses section for better user experience */
+.courses_main_container article {
+  margin: 0 0 32px 0;
+}
+/* styling the explore button */
+.explore {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  height: 40px;
+  width: 80px;
+  background-color: inherit;
+  color: black;
+}
+/* giving it a hover effect */
+.explore:hover {
+  background-color: #ebebeb;
+  transition: 250ms;
+}
+/* styling elements of article inside the container */
+.courses_secondary_container h2 {
+  margin: 0 0 8px;
+}
+.courses_secondary_container p {
+  margin: 0 0 16px;
+}
+.courses_secondary_container button span {
+  padding: 0 12px;
+}
+/* making the explorer like nav bar */
+.specialization_list {
+  max-width: 770px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+/* styling the buttons of explorer */
+.specialization_list li button {
+  border: none;
+  outline: none;
+  white-space: nowrap;
+  height: 48px;
+  padding: 8px 4px;
+  margin: 0 10px 0 0;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6a6f73;
+}
+.specialization_list li button:hover {
+  color: black;
+  transition: 250ms;
+}
+.courses_main_container {
+  padding: 0 24px;
+}
+.courses_secondary_container {
+  padding: 32px;
+  border: 1px solid #d1d7dc;
+}
+/* display courses in a flixible grid  */
+.courses_list {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.courses_explorer{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.course_card {
+  list-style: none;
+}
+.card_container div img {
+  max-width: 230px;
+  max-height: 130px;
+}
+.card_container {
+  max-width: 240px;
+  min-height: 240px;
+  margin: 0 20px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.course_photo img {
+  width: 240px;
+}
+.course_description {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 14px;
+}
+.course_author {
+  font-weight: 400;
+  font-size: 13px;
+  color: gray;
+  flex: 1;
+}
+
+.rate {
+  font-size: 13px;
+  color: goldenrod;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.rate i {
+   padding: 2px;
+}
+.course_price {
+  color: #1c1d1f;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 13px;
+}
+.short_explination{
+  max-width: 800px ;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 100%;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 28% !important;
+  color: white !important;
+  border-radius: 50% !important;
+  background-color: black !important;
+  width: 45px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-next {
+  
+  right: 0px !important;
+}
+
+.swiper-button-prev {
+  left: 0px !important;
+}
